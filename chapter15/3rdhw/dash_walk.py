@@ -121,4 +121,4 @@ class walking():
 		self.layout(go, nm)
 		self.dash_server(go, nm, dash, dcc, html)
 
-walking.whole_thing(go, nm, dash, dcc, html)
+walking(go, nm).whole_thing(go, nm, dash, dcc, html)
