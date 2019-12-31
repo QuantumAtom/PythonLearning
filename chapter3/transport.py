@@ -1,0 +1,6 @@
+PublicTransport = ("CTA", "Metra", "Pace", "Lyft", "Malibu")
+print("The " + PublicTransport[0] + " will take us a to Boystown.")
+print("The " + PublicTransport[1] + " is near my house.")
+print("The " + PublicTransport[2] + " bus is free in Schaumburg and Niles.")
+print("We can just order a " + PublicTransport[3] + ".")
+print("I drive my " + PublicTransport[4] + " to work every weekday.")

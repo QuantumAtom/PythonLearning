@@ -1,0 +1,3 @@
+In Python, you can store variables as numbers (floating point and integer), string, lists, and dictionaries, among others.
+In Python, you can have code executed within a function, within a class (using different terminology), or in a module.
+In Python, you can input a file and parse it as you would like,
