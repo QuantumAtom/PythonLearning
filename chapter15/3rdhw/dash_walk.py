@@ -7,6 +7,8 @@ import dash_html_components as html
 import plotly.graph_objects as go
 
 import numpy as nm
+ 
+import random
 
 class walking():
 
@@ -24,17 +26,17 @@ class walking():
 	
 	def xaxis(self, go, nm):
 		self.x_steps = nm.random.randint(1, 6)
-		self.x_direct = nm.random.choice(1, -1)
+		self.x_direct = [-1,1][random.randrange(2)]
 		self.x_move = self.x_steps * self.x_direct
 	
 	def yaxis(self, go, nm):
 		self.y_steps = nm.random.randint(1, 6)
-		self.y_direct = nm.random.choice(1, -1)
+		self.y_direct = [-1,1][random.randrange(2)]
 		self.y_move = self.y_steps * self.y_direct
 	
 	def zaxis(self, go, nm):
 		self.z_steps = nm.random.randint(1, 6)
-		self.z_direct = nm.random.choice(1, -1)
+		self.z_direct = [-1,1][random.randrange(2)]
 		self.z_move = self.z_steps * self.z_direct
 	
 	def trace(self, go, nm):
