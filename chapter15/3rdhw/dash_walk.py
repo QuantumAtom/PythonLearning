@@ -44,11 +44,11 @@ class walking():
 			x = self.x_move,
 			y = self.y_move,
 			z = self.z_move,
-			marker = dict(
-				size = 2,
-				opacity = 0.6,
-				color='aqua'
-			)
+			marker = dict({
+				size : 2,
+				opacity : 0.6,
+				color :'aqua'	
+			})
 		)
 		data.append(trace)
 
